@@ -1,0 +1,108 @@
+.heroSection {
+  /* max-width: 1440px; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: radial-gradient(
+      150px 150px at 95% 0%,
+      rgba(253, 186, 43, 0.3) 0%,
+      rgba(253, 186, 43, 0) 100%
+    ),
+    radial-gradient(
+      150px 150px at 5% 0%,
+      rgba(120, 213, 242, 0.3) 0%,
+      rgba(253, 186, 43, 0) 100%
+    );
+
+  padding: 20px 40px;
+}
+
+/* .heroSection__one__title {
+  color: var(--light-background-dark-gray);
+  font-weight: 500;
+  font-size: 18px;
+} */
+
+.heroSection__two__card {
+  padding: 10px;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.heroSection__two__card__titles {
+  /* text-align: center; */
+  margin-top: 20px;
+}
+
+.heroSection__two__card__titles__title {
+  color: var(--light-background-dark-gray);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.heroSection__two__card__titles__discount {
+  color: var(--warm-accent);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+/* Block: search-input */
+.heroSection__one__searchinput {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* padding-top: 15px; */
+  /* border: 0.5px solid #ccc; */
+  /* border-radius: 5px; */
+  /* padding: 5px; */
+}
+
+/* Element: search-input__icon */
+.heroSection__one__search__icon {
+  position: absolute;
+  /* margin-right: 10px; */
+  /* font-size: 18px; */
+  left: 15px;
+}
+
+.heroSection__one__search__icon svg {
+  color: var(--light-background-dark-gray);
+  font-size: 25px;
+}
+
+/* Element: search-input__field */
+.heroSection__one__inputfield {
+  flex-grow: 1;
+  border: 1px solid #ddd;
+  outline: none;
+  height: 50px;
+  font-size: 14px;
+  padding-left: 50px;
+  padding-right: 100px;
+  border-radius: 30px;
+  color: var(--light-background-dark-gray);
+  font-weight: 400;
+  box-shadow: 5px 4px 10px 0 #ccc;
+}
+
+/* Element: search-input__submit */
+.heroSection__one__submitbtn {
+  background-color: var(--deep-green);
+  color: white;
+  border: none;
+  /* padding: 5px 10px; */
+  height: 40px;
+  width: 80px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+  position: absolute;
+  right: 5px;
+}
+
+/* Optional: hover effect for the submit button */
+.heroSection__one__submitbtn:hover {
+  background-color: darkblue;
+}

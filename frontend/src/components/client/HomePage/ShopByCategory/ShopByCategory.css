@@ -1,0 +1,14 @@
+.categoryShop {
+    padding: 20px;
+    /* background-color: red; */
+}
+
+.categoryShop__title {
+    font-size: 26px;
+    color: var(--light-background-dark-charcoal);
+    font-weight: 600;
+}
+
+.categoryShop__container {
+    margin-top: 20px;
+}

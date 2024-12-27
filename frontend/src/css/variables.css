@@ -1,0 +1,55 @@
+:root {
+  --brand-color: #10847e;
+  /* Background Color */
+  --light-background: #f4f7f5;
+  --white: #fff;
+
+  /* Foreground Colors with Contrast Ratios */
+  --light-background-dark-gray: #2c2c2c;
+  /* Contrast Ratio: 12.57:1 */
+  --light-background-navy-blue: #1d3c6c;
+  /* Contrast Ratio: 7.98:1 */
+  --light-background-dark-charcoal: #333333;
+  /* Contrast Ratio: 14.43:1 */
+  --light-background-black: #000000;
+  /* Contrast Ratio: 21:1 */
+  --light-background-dark-purple: #3e1f47;
+  /* Contrast Ratio: 6.56:1 */
+  --light-background-light-gray: #d3d3d3;
+  /* Contrast Ratio: 8.94:1 */
+  --light-background-beige: #f0e5d8;
+  /* Contrast Ratio: 6.79:1 */
+
+  --soft-muted: #c0a4b7;
+  /* Foreground Colors with Contrast Ratios */
+  --soft-muted-dark-gray: #2c2c2c;
+  /* Contrast Ratio: 7.74:1 */
+  --soft-muted-navy-blue: #1d3c6c;
+  /* Contrast Ratio: 5.89:1 */
+  --soft-muted-dark-charcoal: #333333;
+  /* Contrast Ratio: 8.57:1 */
+
+  --deep-green: #2b5624;
+  --deep-green-dark-gray: #2c2c2c;
+  /* Contrast Ratio: 14.43:1 */
+  --deep-green-light-gray: #d3d3d3;
+  /* Contrast Ratio: 5.79:1 */
+  --deep-green-black: #000000;
+  /* Contrast Ratio: 21:1 */
+
+  --warm-accent: #d05242;
+  --warm-accent-dark-gray: #2c2c2c;
+  /* Contrast Ratio: 6.65:1 */
+  --warm-accent-navy-blue: #1d3c6c;
+  /* Contrast Ratio: 5.24:1 */
+  --warm-accent-black: #000000;
+  /* Contrast Ratio: 9.74:1 */
+
+  --soft-pink: #f27384;
+  --soft-pink-dark-gray: #2c2c2c;
+  /* Contrast Ratio: 6.45:1 */
+  --soft-pink-dark-charcoal: #333333;
+  /* Contrast Ratio: 7.23:1 */
+  --soft-pink-black: #000000;
+  /* Contrast Ratio: 11.92:1 */
+}

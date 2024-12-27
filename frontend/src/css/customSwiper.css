@@ -1,0 +1,19 @@
+.custom-next,
+.custom-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.custom-prev {
+  left: 10px; /* Position to the left */
+}
+.custom-next {
+  right: 10px; /* Position to the right */
+}
+
+.custom-next:hover,
+.custom-prev:hover {
+  background-color: #24272a; /* Darker blue */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}

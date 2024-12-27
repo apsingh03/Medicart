@@ -1,0 +1,66 @@
+.productsContainer {
+    padding: 50px 20px;
+
+}
+
+.productsContainer__titleBox__title {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--light-background-dark-charcoal);
+}
+
+.productsContainer__titleBox__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--light-background-dark-charcoal);
+}
+
+.productsContainer__box {
+    margin-top: 20px;
+}
+
+.productsContainer__box__card__imageBox {
+    padding: 5px;
+    border: 1px solid #ddd;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.productsContainer__box__card__imageBox:hover {
+    box-shadow: rgba(33, 33, 33, 0.06) 0px 3px 4px, rgba(33, 33, 33, 0.04) 0px 3px 3px, rgba(33, 33, 33, 0.08) 0px 1px 8px;
+}
+
+.productsContainer__box__card__names {
+    margin-top: 10px;
+}
+
+.productsContainer__box__card__names__name {
+    color: var(--light-background-dark-charcoal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.productsContainer__box__card__names__mrp {
+    /* color: var(--light-background-dark-charcoal); */
+    color: #8897A2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.productsContainer__box__card__names__price__final {
+    color: var(--light-background-dark-charcoal);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.productsContainer__box__card__names__price__discountPercent {
+    color: var(--warm-accent);
+    font-size: 16px;
+    font-weight: 700;
+}
