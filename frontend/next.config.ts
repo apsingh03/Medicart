@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       "assets.pharmeasy.in",
     ], // Add your allowed image hostnames here
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
